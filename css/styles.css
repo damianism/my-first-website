@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    background-color: orange;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;  /* to have all three in one line */
+    margin-left: 2.5%;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: rgb(0,0,0);
+    display: block;     /* to consume entire space of the container     */
+    
+}
+
+nav a:hover {
+    background-color: black;
+    color: green;
+}
+
+.card {
+    float: left;
+    width: 25%;
+    margin-left: 5%;
+    overflow-y: auto;
+}
+
+.card a {
+    text-align: center; 
+}
+
+img {
+    width: 100%;
+    height: 180px;
+}
+
+h1 {
+    text-align: center;
+}
